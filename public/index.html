@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD JSON Node.js</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f8f9fa; }
+    h1 { text-align: center; }
+    table { border-collapse: collapse; width: 100%; margin-top: 15px; background: #fff; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background: #007bff; color: #fff; }
+    .form-container { background: #fff; padding: 20px; margin-top: 20px; border: 1px solid #ddd; }
+    label { display:block; margin-top:8px; font-weight:bold; }
+    input, textarea { width: 100%; padding: 6px; margin-top: 4px; }
+    button { margin-top: 10px; padding: 8px 14px; border: none; cursor: pointer; }
+    .btn-primary { background: #28a745; color: #fff; }
+    .btn-warning { background: #ffc107; color: #000; }
+    .btn-danger { background: #dc3545; color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>CRUD JSON dengan Node.js</h1>
+
+  <table id="videoTable">
+    <thead>
+      <tr>
+        <th>ID</th><th>Judul</th><th>Genre</th><th>Rating</th><th>Durasi</th><th>Tahun</th><th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="form-container">
+    <h2 id="formTitle">Tambah Video</h2>
+    <form id="videoForm">
+      <input type="hidden" id="id">
+      <label>Judul</label><input type="text" id="judul" required>
+      <label>Deskripsi</label><textarea id="deskripsi"></textarea>
+      <label>Genre</label><input type="text" id="genre">
+      <label>Rating</label><input type="number" id="rating" min="1" max="5">
+      <label>Durasi</label><input type="text" id="durasi">
+      <label>Tahun</label><input type="number" id="tahun">
+      <label>Thumbnail</label><input type="text" id="thumbnail">
+      <label>Video URL</label><input type="text" id="videoUrl">
+      <button type="submit" class="btn-primary">Simpan</button>
+      <button type="button" onclick="resetForm()" class="btn-warning">Batal</button>
+    </form>
+  </div>
+
+<script>
+const API = "/api/videos";
+const tableBody = document.querySelector("#videoTable tbody");
+const form = document.getElementById("videoForm");
+
+let editingId = null;
+
+async function load() {
+  const res = await fetch(API);
+  const videos = await res.json();
+  tableBody.innerHTML = "";
+  videos.forEach(v => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${v.id}</td><td>${v.judul}</td><td>${v.genre}</td>
+      <td>${v.rating}</td><td>${v.durasi}</td><td>${v.tahun}</td>
+      <td>
+        <button class="btn-warning" onclick="editVideo(${v.id})">Edit</button>
+        <button class="btn-danger" onclick="deleteVideo(${v.id})">Hapus</button>
+      </td>`;
+    tableBody.appendChild(tr);
+  });
+}
+
+form.addEventListener("submit", async e => {
+  e.preventDefault();
+  const data = {
+    judul: document.getElementById("judul").value,
+    deskripsi: document.getElementById("deskripsi").value,
+    genre: document.getElementById("genre").value,
+    rating: Number(document.getElementById("rating").value),
+    durasi: document.getElementById("durasi").value,
+    tahun: Number(document.getElementById("tahun").value),
+    thumbnail: document.getElementById("thumbnail").value,
+    videoUrl: document.getElementById("videoUrl").value
+  };
+  if (editingId) {
+    await fetch(API + "/" + editingId, { method:"PUT", headers:{"Content-Type":"application/json"}, body:JSON.stringify(data) });
+  } else {
+    await fetch(API, { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(data) });
+  }
+  resetForm();
+  load();
+});
+
+async function editVideo(id) {
+  const res = await fetch(API);
+  const videos = await res.json();
+  const v = videos.find(x => x.id === id);
+  editingId = id;
+  document.getElementById("formTitle").innerText = "Edit Video";
+  for (let key in v) {
+    if (document.getElementById(key)) document.getElementById(key).value = v[key];
+  }
+}
+
+async function deleteVideo(id) {
+  if (!confirm("Yakin hapus?")) return;
+  await fetch(API + "/" + id, { method:"DELETE" });
+  load();
+}
+
+function resetForm() {
+  form.reset();
+  editingId = null;
+  document.getElementById("formTitle").innerText = "Tambah Video";
+}
+
+load();
+</script>
+</body>
+</html>
