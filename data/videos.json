@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "judul": "Avatar: The Way of Water",
+    "deskripsi": "Jake Sully dan keluarganya harus meninggalkan rumah mereka dan menjelajahi wilayah Pandora. Ketika sebuah ancaman lama muncul kembali untuk menyelesaikan urusan yang belum selesai, Jake harus bekerja sama dengan Neytiri dan pasukan ras Na'vi untuk melindungi planet mereka.",
+    "genre": "Action",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "videoUrl": "https://www.youtube.com/embed/d9MyW72ELq0",
+    "durasi": "3h 12m",
+    "tahun": 2022
+  },
+  {
+    "id": 2,
+    "judul": "Top Gun: Maverick",
+    "deskripsi": "Setelah lebih dari tiga puluh tahun melayani sebagai salah satu penerbang angkatan laut terbaik, Pete 'Maverick' Mitchell berada di tempatnya seharusnya, mendorong amplop sebagai pilot uji coba yang berani dan menghindari kenaikan pangkat yang akan membumikannya.",
+    "genre": "Action",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+    "videoUrl": "https://www.youtube.com/embed/giXco2jaZ_4",
+    "durasi": "2h 11m",
+    "tahun": 2022
+  },
+  {
+    "id": 3,
+    "judul": "Black Panther: Wakanda Forever",
+    "deskripsi": "Ratu Ramonda, Shuri, M'Baku, Okoye dan Dora Milaje berjuang untuk melindungi negara mereka dari campur tangan kekuatan dunia setelah kematian Raja T'Challa. Saat penduduk Wakanda berusaha untuk meneruskan bab baru mereka, para pahlawan harus bersatu dengan bantuan War Dog Nakia dan Everett Ross serta memfokuskan jalan baru untuk kerajaan Wakanda.",
+    "genre": "Action",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+    "videoUrl": "https://www.youtube.com/embed/_Z3QKkl1WyM",
+    "durasi": "2h 41m",
+    "tahun": 2022
+  },
+  {
+    "id": 4,
+    "judul": "The Batman",
+    "deskripsi": "Dalam tahun kedua melawan kejahatan, Batman mengungkap korupsi di Gotham City yang menghubungkan keluarganya sendiri sambil menghadapi seorang pembunuh serial yang dikenal sebagai Riddler.",
+    "genre": "Action",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "videoUrl": "https://www.youtube.com/embed/mqqft2x_Aa4",
+    "durasi": "2h 56m",
+    "tahun": 2022
+  },
+  {
+    "id": 5,
+    "judul": "Spider-Man: No Way Home",
+    "deskripsi": "Peter Parker terungkap identitasnya sebagai Spider-Man dan tidak dapat lagi memisahkan kehidupan normalnya dari taruhan tinggi menjadi seorang superhero. Ketika dia meminta bantuan Doctor Strange, taruhannya menjadi lebih berbahaya, memaksanya untuk menemukan apa arti menjadi Spider-Man yang sebenarnya.",
+    "genre": "Action",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "videoUrl": "https://www.youtube.com/embed/JfVOs4VSpmA",
+    "durasi": "2h 28m",
+    "tahun": 2021
+  },
+  {
+    "id": 6,
+    "judul": "Dune",
+    "deskripsi": "Paul Atreides, seorang pemuda brilian dan berbakat, lahir untuk takdir besar di luar pemahamannya, harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depan keluarga dan rakyatnya.",
+    "genre": "Sci-Fi",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "videoUrl": "https://www.youtube.com/embed/8g18jFHCLXk",
+    "durasi": "2h 35m",
+    "tahun": 2021
+  },
+  {
+    "id": 7,
+    "judul": "The Matrix Resurrections",
+    "deskripsi": "Neo hidup dalam kehidupan yang tampaknya biasa sebagai Thomas A. Anderson di San Francisco hingga dia bertemu dengan Morpheus dan kembali turun ke lubang kelinci.",
+    "genre": "Sci-Fi",
+    "rating": 3,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+    "videoUrl": "https://www.youtube.com/embed/9ix7TUGVYIo",
+    "durasi": "2h 28m",
+    "tahun": 2021
+  },
+  {
+    "id": 8,
+    "judul": "Eternals",
+    "deskripsi": "Eternals adalah ras makhluk abadi yang telah hidup di Bumi dan membentuk sejarah dan peradabannya. Setelah peristiwa Avengers: Endgame, tragedi tak terduga memaksa mereka keluar dari bayang-bayang untuk bersatu kembali melawan musuh manusia yang paling kuno, Deviants.",
+    "genre": "Sci-Fi",
+    "rating": 3,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/lFByFSLV5WDJEv3KabbdAF959F2.jpg",
+    "videoUrl": "https://www.youtube.com/embed/x_me3xsvDgk",
+    "durasi": "2h 36m",
+    "tahun": 2021
+  },
+  {
+    "id": 9,
+    "judul": "Encanto",
+    "deskripsi": "Bercerita tentang keluarga luar biasa, Madrigals, yang tinggal tersembunyi di pegunungan Kolombia, di sebuah rumah ajaib, di kota yang hidup, di tempat yang menawan yang disebut Encanto.",
+    "genre": "Animation",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+    "videoUrl": "https://www.youtube.com/embed/CaimKeDcudo",
+    "durasi": "1h 42m",
+    "tahun": 2021
+  },
+  {
+    "id": 10,
+    "judul": "Luca",
+    "deskripsi": "Luca dan Alberto adalah dua makhluk laut yang dapat berubah menjadi manusia. Mereka menghabiskan musim panas yang tak terlupakan di kota Portorosso di Riviera Italia.",
+    "genre": "Animation",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+    "videoUrl": "https://www.youtube.com/embed/mYfJxlgR2jw",
+    "durasi": "1h 35m",
+    "tahun": 2021
+  },
+  {
+    "id": 11,
+    "judul": "Soul",
+    "deskripsi": "Joe Gardner adalah seorang guru musik sekolah menengah yang mimpinya adalah tampil di klub jazz terbaik di kota. Tapi satu langkah kecil menjadi mimpi buruk terbesar dan terburuk - dan secara tidak sengaja memisahkan jiwa dari tubuhnya.",
+    "genre": "Animation",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+    "videoUrl": "https://www.youtube.com/embed/xOsLIiBStEs",
+    "durasi": "1h 40m",
+    "tahun": 2020
+  },
+  {
+    "id": 12,
+    "judul": "The French Dispatch",
+    "deskripsi": "Sebuah kumpulan cerita dari edisi terakhir sebuah majalah Amerika yang diterbitkan di sebuah kota fiksi Prancis abad ke-20.",
+    "genre": "Comedy",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/z4A6mFOLTMZAhCSPRyrtzG0SPbd.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcPk2p0Zaw4",
+    "durasi": "1h 47m",
+    "tahun": 2021
+  },
+  {
+    "id": 13,
+    "judul": "Free Guy",
+    "deskripsi": "Seorang teller bank yang mengetahui bahwa dia sebenarnya adalah karakter latar belakang dalam video game dunia terbuka memutuskan untuk menjadi pahlawan dalam ceritanya sendiri.",
+    "genre": "Comedy",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+    "videoUrl": "https://www.youtube.com/embed/X2m-08cOAbc",
+    "durasi": "1h 55m",
+    "tahun": 2021
+  },
+  {
+    "id": 14,
+    "judul": "Don't Look Up",
+    "deskripsi": "Dua astronom tingkat rendah harus melakukan tur media besar untuk memperingatkan umat manusia tentang komet yang akan menghancurkan planet ini yang mendekati Bumi.",
+    "genre": "Comedy",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/th4E1yqsE8DGpAseLiUrI60Hf8V.jpg",
+    "videoUrl": "https://www.youtube.com/embed/RbIxYm3mKzI",
+    "durasi": "2h 18m",
+    "tahun": 2021
+  },
+  {
+    "id": 15,
+    "judul": "A Quiet Place Part II",
+    "deskripsi": "Menyusul peristiwa mematikan di rumah, keluarga Abbott sekarang harus menghadapi teror dunia luar. Dipaksa untuk menjelajah ke dalam yang tidak diketahui, mereka menyadari bahwa makhluk yang berburu dengan suara bukanlah satu-satunya ancaman yang mengintai di luar jalur pasir.",
+    "genre": "Horror",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg",
+    "videoUrl": "https://www.youtube.com/embed/BpdDN9d9Jio",
+    "durasi": "1h 37m",
+    "tahun": 2020
+  },
+  {
+    "id": 16,
+    "judul": "Malignant",
+    "deskripsi": "Madison terganggu oleh visi mengerikan tentang pembunuhan yang mengerikan, dan rasa traumanya bertambah ketika dia mengetahui bahwa mimpi mengerikan ini sebenarnya adalah kenyataan mematikan.",
+    "genre": "Horror",
+    "rating": 3,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/jV75XA3d11kAdXJLKwMYg0RbKNl.jpg",
+    "videoUrl": "https://www.youtube.com/embed/hLk7WsLQtoU",
+    "durasi": "1h 51m",
+    "tahun": 2021
+  },
+  {
+    "id": 17,
+    "judul": "The Conjuring: The Devil Made Me Do It",
+    "deskripsi": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before.",
+    "genre": "Horror",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
+    "videoUrl": "https://www.youtube.com/embed/h9Q4zZS2v1k",
+    "durasi": "1h 52m",
+    "tahun": 2021
+  },
+  {
+    "id": 18,
+    "judul": "House of Gucci",
+    "deskripsi": "Kisah dramatis dari keluarga di balik rumah mode mewah Italia Gucci. Film ini merentang tiga dekade cinta, pengkhianatan, kebebasan, balas dendam dan pembunuhan untuk melihat apa yang diperlukan untuk bertahan hidup.",
+    "genre": "Drama",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/pbrkL804c8yAv4t2Tpyq2AAmDKW.jpg",
+    "videoUrl": "https://www.youtube.com/embed/pGBwO1aZNyM",
+    "durasi": "2h 38m",
+    "tahun": 2021
+  },
+  {
+    "id": 19,
+    "judul": "King Richard",
+    "deskripsi": "Didorong oleh visi yang jelas tentang masa depan mereka dan menggunakan metode yang tidak konvensional, Richard memiliki rencana yang akan membawa Venus dan Serena Williams dari jalanan Compton, California ke panggung dunia sebagai legenda olahraga.",
+    "genre": "Drama",
+    "rating": 4,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/6VG7dTebMOweyNYuuJVrReR09N5.jpg",
+    "videoUrl": "https://www.youtube.com/embed/qcFwogvyZII",
+    "durasi": "2h 24m",
+    "tahun": 2021
+  },
+  {
+    "id": 20,
+    "judul": "CODA",
+    "deskripsi": "Sebagai satu-satunya anggota keluarga yang dapat mendengar, Ruby adalah bagian integral dari bisnis penangkapan ikan kasar keluarganya. Tetapi ketika dia bergabung dengan paduan suara sekolah menengahnya, Ruby menemukan hadiah untuk bernyanyi yang membuatnya harus memilih antara kewajiban keluarga dan mimpinya.",
+    "genre": "Drama",
+    "rating": 5,
+    "thumbnail": "https://image.tmdb.org/t/p/w500/ilKb2ylQbqZoPDy5t6olBUsFPRp.jpg",
+    "videoUrl": "https://www.youtube.com/embed/KgrI6c1sd7c",
+    "durasi": "1h 51m",
+    "tahun": 2021
+  }
+]
